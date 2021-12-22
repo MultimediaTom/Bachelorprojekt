@@ -1,0 +1,9 @@
+[2021-09-22 10:48:00.470] [sharedprocess] [warning] No ptyHost heartbeat after 6 seconds
+[2021-09-22 10:48:04.562] [sharedprocess] [info] [logs cleanup]: Starting to clean up old logs.
+[2021-09-22 10:48:11.025] [sharedprocess] [info] Installing extension: ms-ceintl.vscode-language-pack-de
+[2021-09-22 10:48:13.601] [sharedprocess] [info] Downloaded extension: ms-ceintl.vscode-language-pack-de /var/www/site/htdocs/fileadmin/~/.vscode-root/CachedExtensionVSIXs/ms-ceintl.vscode-language-pack-de-1.60.4
+[2021-09-22 10:48:14.143] [sharedprocess] [info] Extracted extension to /root/.vscode/extensions/.5f906b3a-4e74-4bcb-bd67-d022421b32a3: ms-ceintl.vscode-language-pack-de
+[2021-09-22 10:48:14.152] [sharedprocess] [info] Renamed to /root/.vscode/extensions/ms-ceintl.vscode-language-pack-de-1.60.4
+[2021-09-22 10:48:14.157] [sharedprocess] [info] Extracting completed. ms-ceintl.vscode-language-pack-de
+[2021-09-22 10:48:14.175] [sharedprocess] [info] Adding language packs from the extension ms-ceintl.vscode-language-pack-de
+[2021-09-22 10:48:14.330] [sharedprocess] [info] Extension installed successfully: ms-ceintl.vscode-language-pack-de

@@ -1,0 +1,48 @@
+<html xmlns:f="http://typo3.org/ns/TYPO3/CMS/Fluid/ViewHelpers" data-namespace-typo3-fluid="true">
+<f:layout name="Default" />
+
+This template is responsible for creating a table of domain objects.
+
+If you modify this template, do not forget to change the overwrite settings
+in /Configuration/ExtensionBuilder/settings.yaml:
+  Resources:
+    Private:
+      Templates:
+        Produkt:
+          List.html: keep
+
+Otherwise your changes will be overwritten the next time you save the extension in the extension builder
+
+<f:section name="content">
+    <h1>Listing for Produkt</h1>
+
+    <f:flashMessages />
+
+    <table class="tx_theshop">
+        <tr>
+            <th><f:translate key="tx_theshop_domain_model_produkt.artikelnummer" /></th>
+            <th><f:translate key="tx_theshop_domain_model_produkt.bezeichnung" /></th>
+            <th><f:translate key="tx_theshop_domain_model_produkt.beschreibung" /></th>
+            <th><f:translate key="tx_theshop_domain_model_produkt.preis" /></th>
+            <th><f:translate key="tx_theshop_domain_model_produkt.lagermenge" /></th>
+            <th><f:translate key="tx_theshop_domain_model_produkt.bilddatei" /></th>
+            <th></th>
+            <th></th>
+        </tr>
+        <f:for each="{produkts}" as="produkt">
+            <tr>
+                <td><f:link.action action="show" arguments="{produkt : produkt}">{produkt.artikelnummer}</f:link.action></td>
+                <td><f:link.action action="show" arguments="{produkt : produkt}">{produkt.bezeichnung}</f:link.action></td>
+                <td><f:link.action action="show" arguments="{produkt : produkt}">{produkt.beschreibung}</f:link.action></td>
+                <td><f:link.action action="show" arguments="{produkt : produkt}">{produkt.preis}</f:link.action></td>
+                <td><f:link.action action="show" arguments="{produkt : produkt}">{produkt.lagermenge}</f:link.action></td>
+                <td><f:link.action action="show" arguments="{produkt : produkt}">{produkt.bilddatei}</f:link.action></td>
+                <td><f:link.action action="edit" arguments="{produkt : produkt}">Edit</f:link.action></td>
+                <td><f:link.action action="delete" arguments="{produkt : produkt}">Delete</f:link.action></td>
+            </tr>
+        </f:for>
+    </table>
+
+    <f:link.action action="new">New Produkt</f:link.action>
+</f:section>
+</html>

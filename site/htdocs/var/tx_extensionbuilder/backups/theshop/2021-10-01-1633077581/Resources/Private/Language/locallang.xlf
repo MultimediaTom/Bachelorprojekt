@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<xliff version="1.0">
+	<file source-language="de" datatype="plaintext" original="EXT:theshop/Resources/Private/Language/locallang" date="2021-10-01T10:05:00Z" product-name="theshop">
+		<header/>
+		<body>
+			<trans-unit id="tx_theshop_domain_model_kunde" resname="tx_theshop_domain_model_kunde">
+				<source>Kunde</source>
+			</trans-unit>
+			<trans-unit id="tx_theshop_domain_model_kunde.kundennummer" resname="tx_theshop_domain_model_kunde.kundennummer">
+				<source>Kundennummer</source>
+			</trans-unit>
+			<trans-unit id="tx_theshop_domain_model_kunde.name" resname="tx_theshop_domain_model_kunde.name">
+				<source>Name</source>
+			</trans-unit>
+			<trans-unit id="tx_theshop_domain_model_kunde.vorname" resname="tx_theshop_domain_model_kunde.vorname">
+				<source>Vorname</source>
+			</trans-unit>
+			<trans-unit id="tx_theshop_domain_model_kunde.adresse" resname="tx_theshop_domain_model_kunde.adresse">
+				<source>Adresse</source>
+			</trans-unit>
+			<trans-unit id="tx_theshop_domain_model_kunde.bestellung" resname="tx_theshop_domain_model_kunde.bestellung">
+				<source>Bestellung</source>
+			</trans-unit>
+			<trans-unit id="tx_theshop_domain_model_produkt" resname="tx_theshop_domain_model_produkt">
+				<source>Produkt</source>
+			</trans-unit>
+			<trans-unit id="tx_theshop_domain_model_produkt.artikelnummer" resname="tx_theshop_domain_model_produkt.artikelnummer">
+				<source>Artikelnummer</source>
+			</trans-unit>
+			<trans-unit id="tx_theshop_domain_model_produkt.bezeichnung" resname="tx_theshop_domain_model_produkt.bezeichnung">
+				<source>Bezeichnung</source>
+			</trans-unit>
+			<trans-unit id="tx_theshop_domain_model_produkt.beschreibung" resname="tx_theshop_domain_model_produkt.beschreibung">
+				<source>Beschreibung</source>
+			</trans-unit>
+			<trans-unit id="tx_theshop_domain_model_produkt.preis" resname="tx_theshop_domain_model_produkt.preis">
+				<source>Preis</source>
+			</trans-unit>
+			<trans-unit id="tx_theshop_domain_model_produkt.lagermenge" resname="tx_theshop_domain_model_produkt.lagermenge">
+				<source>Lagermenge</source>
+			</trans-unit>
+			<trans-unit id="tx_theshop_domain_model_produkt.bilddatei" resname="tx_theshop_domain_model_produkt.bilddatei">
+				<source>Bilddatei</source>
+			</trans-unit>
+			<trans-unit id="tx_theshop_domain_model_warenkorb" resname="tx_theshop_domain_model_warenkorb">
+				<source>Warenkorb</source>
+			</trans-unit>
+			<trans-unit id="tx_theshop_domain_model_warenkorb.kundennummer" resname="tx_theshop_domain_model_warenkorb.kundennummer">
+				<source>Kundennummer</source>
+			</trans-unit>
+			<trans-unit id="tx_theshop_domain_model_warenkorb.artikelnummer" resname="tx_theshop_domain_model_warenkorb.artikelnummer">
+				<source>Artikelnummer</source>
+			</trans-unit>
+			<trans-unit id="tx_theshop_domain_model_warenkorb.anzahl" resname="tx_theshop_domain_model_warenkorb.anzahl">
+				<source>Anzahl</source>
+			</trans-unit>
+			<trans-unit id="tx_theshop_domain_model_warenkorb.preis" resname="tx_theshop_domain_model_warenkorb.preis">
+				<source>Preis</source>
+			</trans-unit>
+			<trans-unit id="tx_theshop_domain_model_warenkorb.status" resname="tx_theshop_domain_model_warenkorb.status">
+				<source>Status</source>
+			</trans-unit>
+		</body>
+	</file>
+</xliff>

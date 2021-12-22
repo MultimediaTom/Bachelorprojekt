@@ -1,0 +1,36 @@
+<header>
+  <nav class="navbar navbar-expand-md navbar-dark navbar-default navbar-static-top bg-dark">
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarContent" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
+    <div class="container-fluid">
+      <div class="collapse navbar-collapse" id="navbarContent">
+          <f:cObject typoscriptObjectPath="lib.mainNavi" />
+      </div>
+    </div>
+  </nav>
+</header>
+<p></p>
+<main class="flex-shrink-0">
+  <div class="container">
+     <div class="container-fluid">
+   <h1>{pageTitle}</h1>
+ </div>
+    <p></p>
+ <div class="container-fluid" id="content">
+     {content -> f:format.raw()}  
+ </div>
+  </div><!-- /.container -->
+
+  <!-- FOOTER -->
+  <footer class="footer fixed-bottom mt-auto py-3 bg-light">
+    <div class="container-fluid">
+    <span class="text-muted"><p class="float-end"><a href="#">Back to top</a></p>
+      <p>&copy; 2021 Projekt, DM. &middot; <a href="#">Privacy</a> &middot; <a href="#">Terms</a></p></span>
+    </div>
+  </footer>
+</main>   
+     <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="fileadmin/template/bootstrap/js/jquery.min.js"></script>
+    <script>window.jQuery || document.write('<script src="fileadmin/template/bootstrap/js/jquery.min.js"><\/script>')</script>
+    <script src="fileadmin/template/bootstrap/js/bootstrap.min.js"></script>

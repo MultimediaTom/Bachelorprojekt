@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<xliff version="1.0">
+	<file source-language="de" datatype="plaintext" original="EXT:theshop/Resources/Private/Language/locallang_csh" date="2021-10-01T10:39:41Z" product-name="theshop">
+		<header/>
+		<body>
+			<trans-unit id="kundennummer.description" resname="kundennummer.description">
+				<source>kundennummer</source>
+			</trans-unit>
+			<trans-unit id="name.description" resname="name.description">
+				<source>name</source>
+			</trans-unit>
+			<trans-unit id="vorname.description" resname="vorname.description">
+				<source>vorname</source>
+			</trans-unit>
+			<trans-unit id="adresse.description" resname="adresse.description">
+				<source>adresse</source>
+			</trans-unit>
+			<trans-unit id="bestellung.description" resname="bestellung.description">
+				<source>bestellung</source>
+			</trans-unit>
+		</body>
+	</file>
+</xliff>
