@@ -74,6 +74,12 @@ return [
         'felogin' => [
             'packagePath' => 'typo3/sysext/felogin/',
         ],
+        'filemetadata' => [
+            'packagePath' => 'typo3/sysext/filemetadata/',
+        ],
+        'indexed_search' => [
+            'packagePath' => 'typo3/sysext/indexed_search/',
+        ],
         'info' => [
             'packagePath' => 'typo3/sysext/info/',
         ],
@@ -95,17 +101,11 @@ return [
         'viewpage' => [
             'packagePath' => 'typo3/sysext/viewpage/',
         ],
-        'extension_builder' => [
-            'packagePath' => 'typo3conf/ext/extension_builder/',
+        'bootstrap_package' => [
+            'packagePath' => 'typo3conf/ext/bootstrap_package/',
         ],
-        'news' => [
-            'packagePath' => 'typo3conf/ext/news/',
-        ],
-        'phpmyadmin' => [
-            'packagePath' => 'typo3conf/ext/phpmyadmin/',
-        ],
-        'sf_register' => [
-            'packagePath' => 'typo3conf/ext/sf_register/',
+        'introduction' => [
+            'packagePath' => 'typo3conf/ext/introduction/',
         ],
     ],
     'version' => 5,

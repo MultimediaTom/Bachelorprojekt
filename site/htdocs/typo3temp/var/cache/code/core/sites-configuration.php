@@ -1,97 +1,66 @@
 <?php
 return array (
-  'projektseite' => 
+  'introduction' => 
   array (
     'base' => '/',
+    'baseVariants' => 
+    array (
+    ),
+    'errorHandling' => 
+    array (
+    ),
     'languages' => 
     array (
       0 => 
       array (
-        'title' => 'Deutsch',
+        'title' => 'English',
         'enabled' => true,
-        'languageId' => 0,
+        'languageId' => '0',
         'base' => '/',
+        'typo3Language' => 'default',
+        'locale' => 'en_US.UTF-8',
+        'iso-639-1' => 'en',
+        'navigationTitle' => 'English',
+        'hreflang' => 'en-US',
+        'direction' => '',
+        'flag' => 'us',
+      ),
+      1 => 
+      array (
+        'title' => 'Dansk',
+        'enabled' => true,
+        'languageId' => '1',
+        'base' => '/da/',
+        'typo3Language' => 'da',
+        'locale' => 'da_DK.UTF-8',
+        'iso-639-1' => 'da',
+        'navigationTitle' => 'Dansk',
+        'hreflang' => 'da-DK',
+        'direction' => '',
+        'fallbackType' => 'fallback',
+        'fallbacks' => '',
+        'flag' => 'dk',
+      ),
+      2 => 
+      array (
+        'title' => 'German',
+        'enabled' => true,
+        'languageId' => '2',
+        'base' => '/de/',
         'typo3Language' => 'de',
         'locale' => 'de_DE.UTF-8',
         'iso-639-1' => 'de',
-        'navigationTitle' => '',
-        'hreflang' => '',
+        'navigationTitle' => 'Deutsch',
+        'hreflang' => 'de-DE',
         'direction' => '',
+        'fallbackType' => 'fallback',
+        'fallbacks' => '1,0',
         'flag' => 'de',
-        'websiteTitle' => 'Projektseite',
       ),
     ),
     'rootPageId' => 1,
-    'websiteTitle' => 'Projektseite',
-    'routeEnhancers' => 
+    'routes' => 
     array (
-      'News' => 
-      array (
-        'type' => 'Extbase',
-        'limitToPages' => 
-        array (
-          0 => 2,
-          1 => 3,
-          2 => 5,
-          3 => 6,
-          4 => 9,
-          5 => 59,
-          6 => 60,
-          7 => 61,
-          8 => 62,
-        ),
-        'extension' => 'News',
-        'plugin' => 'Pi1',
-        'routes' => 
-        array (
-          0 => 
-          array (
-            'routePath' => '/page-{page}',
-            '_controller' => 'News::list',
-            '_arguments' => 
-            array (
-              'page' => '@widget_0/currentPage',
-            ),
-          ),
-          1 => 
-          array (
-            'routePath' => '/{news-title}',
-            '_controller' => 'News::detail',
-            '_arguments' => 
-            array (
-              'news-title' => 'news',
-            ),
-          ),
-        ),
-        'defaultController' => 'News::list',
-        'defaults' => 
-        array (
-          'page' => '0',
-        ),
-        'aspects' => 
-        array (
-          'news-title' => 
-          array (
-            'type' => 'PersistedAliasMapper',
-            'tableName' => 'tx_news_domain_model_news',
-            'routeFieldName' => 'path_segment',
-          ),
-          'page' => 
-          array (
-            'type' => 'StaticRangeMapper',
-            'start' => '1',
-            'end' => '100',
-          ),
-        ),
-      ),
-      'PageTypeSuffix' => 
-      array (
-        'type' => 'PageType',
-        'map' => 
-        array (
-          'feed.xml' => 9818,
-        ),
-      ),
     ),
   ),
 );
