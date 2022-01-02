@@ -16,7 +16,7 @@ use Symfony\Component\DependencyInjection\ParameterBag\ParameterBagInterface;
  *
  * @final
  */
-class DependencyInjectionContainer_ec0996883d032744ff38e185acca86aade925983 extends Container
+class DependencyInjectionContainer_eb7957cc256a0f1c61fc0affb0b5604114536ca2 extends Container
 {
     private $parameters = [];
     private $getService;
