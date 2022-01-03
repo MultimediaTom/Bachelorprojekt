@@ -1,0 +1,15 @@
+
+# Module configuration
+module.tx_theshop_web_theshoptheshop {
+    persistence {
+        storagePid = {$module.tx_theshop_theshop.persistence.storagePid}
+    }
+    view {
+        templateRootPaths.0 = EXT:theshop/Resources/Private/Backend/Templates/
+        templateRootPaths.1 = {$module.tx_theshop_theshop.view.templateRootPath}
+        partialRootPaths.0 = EXT:theshop/Resources/Private/Backend/Partials/
+        partialRootPaths.1 = {$module.tx_theshop_theshop.view.partialRootPath}
+        layoutRootPaths.0 = EXT:theshop/Resources/Private/Backend/Layouts/
+        layoutRootPaths.1 = {$module.tx_theshop_theshop.view.layoutRootPath}
+    }
+}
